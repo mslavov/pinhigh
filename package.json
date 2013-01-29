@@ -1,0 +1,26 @@
+{
+  "name": "pinhigh",
+  "description": "pinhigh is a distributed cache",
+  "version": "0.0.1",
+  "author": {
+    "name": "Milko Slavov",
+    "email": "milko.slavov@gmail.com"
+  },
+  "keywords": [
+    "cache",
+	"distribute"
+  ],
+  "dependencies": {
+    "msgpack"  : ">= 0.1.7",
+	"gossiper" : ">= 0.0.3",
+	"bignum"   : ">= 0.5.4",
+	"logly"    : ">= 1.3.0",
+	"nconf"	   : ">= 0.6.7"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "node lib/test.js"
+  },
+  "readme": "",
+  "readmeFilename": "README.md"
+}
